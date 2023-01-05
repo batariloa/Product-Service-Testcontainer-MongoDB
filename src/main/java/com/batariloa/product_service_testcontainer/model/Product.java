@@ -1,4 +1,4 @@
-package product_service.model;
+package com.batariloa.product_service_testcontainer.model;
 
 
 import lombok.AllArgsConstructor;

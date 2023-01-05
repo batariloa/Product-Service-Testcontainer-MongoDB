@@ -1,14 +1,14 @@
-package product_service.service;
+package com.batariloa.product_service_testcontainer.service;
 
 
+import com.batariloa.product_service_testcontainer.dto.ProductRequest;
+import com.batariloa.product_service_testcontainer.dto.ProductResponse;
+import com.batariloa.product_service_testcontainer.model.Product;
+import com.batariloa.product_service_testcontainer.repository.ProductRepository;
+import com.batariloa.product_service_testcontainer.util.ProductUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import product_service.dto.ProductRequest;
-import product_service.dto.ProductResponse;
-import product_service.model.Product;
-import product_service.repository.ProductRepository;
-import product_service.util.ProductUtil;
 
 import java.util.List;
 

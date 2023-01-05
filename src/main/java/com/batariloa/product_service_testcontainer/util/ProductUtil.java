@@ -1,7 +1,7 @@
-package product_service.util;
+package com.batariloa.product_service_testcontainer.util;
 
-import product_service.dto.ProductResponse;
-import product_service.model.Product;
+import com.batariloa.product_service_testcontainer.dto.ProductResponse;
+import com.batariloa.product_service_testcontainer.model.Product;
 
 public class ProductUtil {
 

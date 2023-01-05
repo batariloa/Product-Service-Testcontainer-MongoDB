@@ -1,9 +1,9 @@
-package product_service.repository;
+package com.batariloa.product_service_testcontainer.repository;
 
 
+import com.batariloa.product_service_testcontainer.model.Product;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
-import product_service.model.Product;
 
 @Repository
 public interface ProductRepository extends MongoRepository<Product, String> {

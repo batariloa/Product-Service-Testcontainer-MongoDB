@@ -1,11 +1,12 @@
-package product_service.controller;
+package com.batariloa.product_service_testcontainer.controller;
 
+import com.batariloa.product_service_testcontainer.dto.ProductRequest;
+import com.batariloa.product_service_testcontainer.dto.ProductResponse;
+import com.batariloa.product_service_testcontainer.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import product_service.dto.ProductRequest;
-import product_service.dto.ProductResponse;
-import product_service.service.ProductService;
+
 
 import java.util.List;
 

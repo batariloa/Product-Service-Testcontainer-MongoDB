@@ -1,4 +1,4 @@
-package product_service.dto;
+package com.batariloa.product_service_testcontainer.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
